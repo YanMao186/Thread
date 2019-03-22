@@ -20,7 +20,6 @@ public class BuyTicket extends Thread {
                 }
                 System.out.println(Thread.currentThread().getName() + "售出票1张,还剩" + ticket-- + "张");
             }else {
-                System.out.println("票卖完了");
                 break;
             }
         }
